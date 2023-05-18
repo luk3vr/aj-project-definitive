@@ -833,7 +833,12 @@ a:focus, a:hover {
   padding: 2px 8px;
   font-size: 20px;
 }
-
+.cards-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
 .card {
   width: 2.5rem;
 }
