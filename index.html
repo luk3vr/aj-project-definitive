@@ -81,28 +81,28 @@ Fixed Navigation
 
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="navbar-nav ml-auto text-center">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
-			  </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="about.html">Quem somos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Página Inicial</a>
           </li>
           <li class="nav-item ">
+            <a class="nav-link" href="about.html">Sobre nós</a>
+          </li>
+          <!--<li class="nav-item ">
             <a class="nav-link" href="service.html">Services</a>
-          </li>
-          <li class="nav-item ">
+          </li>-->
+          <!--<li class="nav-item ">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item ">
+          </li>-->
+          <!--<li class="nav-item ">
             <a class="nav-link" href="team.html">Team</a>
-          </li>
-          <li class="nav-item ">
+          </li>-->
+          <!--<li class="nav-item ">
             <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <li class="nav-item ">
+          </li>-->
+          <li class="nav-item  active ">
             <a class="nav-link" href="contact.html">Contato</a>
           </li>
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Pages <i class="tf-ion-chevron-down"></i>
@@ -121,7 +121,7 @@ Fixed Navigation
                 </ul>
               </li>
             </ul>
-          </li>
+          </li>-->
         </ul>
       </div>
     </nav>
@@ -135,29 +135,34 @@ End Fixed Navigation
  <!--
 Welcome Slider
 ==================================== -->
- <section class="hero-area">
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-md-12">
- 				<div class="block mt-4">
- 					<h1 class="wow fadeInUp" style="font-size: 3em;" data-wow-duration=".5s" data-wow-delay=".3s">Integração<br> que <br>
+<div class="hero-slider">
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-3.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-left">
+					<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Integração<br> que<br>
 						revoluciona</h1>
- 					<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">Tenha controle total sobre suas vendas com informações<br> de compra originadas de qualquer sistema.
- 					</p>
- 					<ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
- 						<li class="list-inline-item">
- 							<a data-scroll href="#services" class="btn btn-main">Agende uma reunião</a>
- 						</li>
- 						<li class="list-inline-item">
- 							<a data-scroll href="#team" class="btn btn-transparent">Saiba mais</a>
- 						</li>
- 					</ul>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- </section>
-
+					<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Tenha controle total sobre suas vendas com informações<br> de compra originadas de qualquer sistema.</p>
+					<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
+						href="service.html">Saiba mais</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-4.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-left">
+					<h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">A solução <br> da<br>
+						AJ Desenvolvimento</h1>
+					<p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">Uma ferramenta poderosa para empresas de e-commerce que desejam otimizar suas operações, reduzir erros e oferecer uma experiência excepcional aos clientes.</p>
+					<a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
+						href="contact.html">Agende uma reunião</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!--
 Start About Section
 ==================================== -->
@@ -169,8 +174,6 @@ Start About Section
         <!-- section title -->
         <div class="title text-center">
           <h2>Integrações</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptates, earum. </p>
           <div class="border"></div>
         </div>
         <!-- /section title -->
@@ -192,22 +195,19 @@ Start About Section
           <div class="col-md-6 col-sm-6">
             <div class="service-item">
               <i class="tf-ion-ios-briefcase-outline"></i>
-              <h4>Integração com ERP's</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+              <h4>Integração com ERP's <span style="color: transparent">Integração com ERP's</span></h4>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6">
             <div class="service-item">
               <i class="tf-ion-ios-email-outline"></i>
               <h4>Integração com WMS</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6">
             <div class="service-item">
               <i class="tf-ion-ios-locked-outline"></i>
               <h4>Easy Return</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
         </div>
@@ -243,7 +243,7 @@ Start About Section
 					<ul>
 						<li> <div class="cards-img"><img src="images/about/card1.png" class="img-fluid card" alt=""> Atualização constante;</div></li>
 						<li> <div class="cards-img"><img src="images/about/card2.png" class="img-fluid card" alt=""> Redução de custos;</div></li>
-						<li> <div class="cards-img"><img src="images/about/card3.png" class="img-fluid card" alt=""> Facilidade através de operações automatizadas;</div></li>
+						<li> <div class="cards-img"><img src="images/about/card3.png" class="img-fluid card" alt=""> Facilidade em operações automatizadas;</div></li>
 						<li> <div class="cards-img"><img src="images/about/card4.png" class="img-fluid card" alt=""> Integração fiel entre sua loja virtual e o ERP;</div></li>
 						<li> <div class="cards-img"><img src="images/about/card5.png" class="img-fluid card" alt=""> Otimização de tempo.</div></li>
 					</ul>
@@ -331,18 +331,6 @@ Start Counter Section
 				</div>
 			</div>
 			<!-- end fourth count item -->
-
-			<!-- fifth count item -->
-			<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
-				<div class="counters-item kill-border">
-					<i class="tf-ion-ios-bolt-outline"></i>
-					<div>
-						<span class="counter" data-count="8%">0%</span>
-					</div>
-					<h3>Apenas em loja física</h3>
-				</div>
-			</div>
-			<!-- end fifth count item -->
 		</div> <!-- end row -->
 	</div> <!-- end container -->
 </section> <!-- end section -->
@@ -524,7 +512,7 @@ Start Blog Section
 			  <li>
 				<h3>Redes Sociais</h3>
 			  </li>
-			  <li><a href="about.html">LinkedIn</a></li>
+			  <li><a href="https://www.linkedin.com/company/ajd-tecnologia/" target="_blank">LinkedIn</a></li>
 			  
 			</ul>
 		  </div>
