@@ -12,14 +12,14 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8" />
-    <title>Integração com e-commerce</title>
+    <title>Fale conosco</title>
 
     <!-- Mobile Specific Metas
   ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="AJ Desenvolvimento - Integração com e-commerce"
+      content="AJ Desenvolvimento - Contato"
     />
     <meta
       name="viewport"
@@ -107,7 +107,7 @@ Fixed Navigation
               <li class="nav-item">
                 <a class="nav-link" href="quem-somos.html">Sobre nós</a>
               </li>
-              <li class="nav-item dropdown active">
+              <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#!"
@@ -144,8 +144,8 @@ Fixed Navigation
                     >
                   </li>
                 </ul>
-                <li class="nav-item">
-                  <a class="nav-link" href="fale-conosco.html">Contato</a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contato</a>
                 </li>
               </li>
             </ul>
@@ -176,13 +176,13 @@ End Fixed Navigation
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>Integrações com e-commerce</h2>
+            <h2>Fale conosco</h2>
             <ol class="breadcrumb header-bradcrumb justify-content-center">
               <li class="breadcrumb-item">
                 <a href="index.html" class="text-white">Página Inicial</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Integrações com e-commerce
+                Fale conosco
               </li>
             </ol>
           </div>
@@ -190,118 +190,151 @@ End Fixed Navigation
       </div>
     </section>
 
-    <!--
-Start About Section
-==================================== -->
-    <section class="about-2 section" id="about">
+    <!--Start Contact Us
+	=========================================== -->
+    <section class="contact-us" id="contact">
       <div class="container">
         <div class="row justify-content-center">
           <!-- section title -->
-          <div class="col-lg-6">
+          <div class="col-xl-6 col-lg-8">
             <div class="title text-center">
-              <h2>Soluções para plataformas de e-commerce</h2>
-              <p>
-                A solução OMS da AJD permite a integração de várias frentes,
-                enviando as informações de uma compra seja ela originada em um
-                sistema e-commerce, marketplace ou qualquer outro terminal.
-              </p>
+              <h2>Fale com a gente</h2>
               <div class="border"></div>
             </div>
           </div>
           <!-- /section title -->
         </div>
-
         <div class="row">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <img
-              loading="lazy"
-              src="images/Soluções-1-solucoes.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-          <div class="col-md-6" style="margin-top: 1.5rem">
-            <ul class="checklist">
-              <li>Consumidor final compra em uma loja e-commerce.</li>
-              <li>
-                Compra registrada pelo parceiro de back-office de e-commerce.
+          <!-- Contact Details -->
+          <div class="contact-details col-md-6">
+            <h3 class="mb-3">Detalhes de contato</h3>
+            <p>
+              Entre em contato conosco para descobrir como podemos ajudar a
+              impulsionar o sucesso do seu negócio de e-commerce.
+            </p>
+            <ul class="contact-short-info mt-4">
+              <li class="mb-3">
+                <i class="tf-ion-ios-home"></i>
+                <span
+                  >Rua Verbo Divino, Nº 2001 Sala 202 - 2º andar Torre B -
+                  Chácara Santo Antônio CEP: 04719-001 - São Paulo/SP</span
+                >
               </li>
-              <li>Este pedido é convertido em uma nota fiscal.</li>
-              <li>
-                Gerenciador do e-commerce envia a informação da nora fiscal para
-                uma transportadora.
-              </li>
-              <li>
-                Transportadora faz a gestão logística. Envia nota fiscal ao
-                cliente.
+              <li class="mb-3">
+                <i class="tf-ion-android-phone-portrait"></i>
+                <span>Telefone: (11) 99375-8405</span>
               </li>
               <li>
-                Nota e rastreamento são entregues ao consumidor final de maneira
-                eletrônica.
-              </li>
-              <li>
-                Gerenciamento de pagamento é feito utilizando a parceria com o
-                gateway para checar o que foi pago na conta principal e o que
-                foi emitido de pedidos.
+                <i class="tf-ion-android-mail"></i>
+                <span>Email: atendimento@ajdesenvolvimento.com.br</span>
               </li>
             </ul>
-            <a href="fale-conosco.html" class="btn btn-main mt-20"
-              >Agende uma reunião</a
-            >
+            <!-- Footer Social Links -->
+            <div class="social-icon">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/ajd-tecnologia/"
+                    target="_blank"
+                    ><i class="tf-ion-social-linkedin-outline"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!--/. End Footer Social Links -->
           </div>
-        </div>
-        <!-- End row -->
-      </div>
-      <!-- End container -->
-    </section>
-    <!-- End section -->
+          <!-- / End Contact Details -->
 
-    <section
-      class="company-mission"
-      style="background-color: #2c73b5;"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img
-              loading="lazy"
-              src="images/solucoes.jpeg"
-              alt="Fluxo de implantação"
-              class="img-fluid solucao-image"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+          <!-- Contact Form -->
+          <div class="contact-form col-md-6">
+            <form id="contact-form" method="post" role="form">
+              <div class="form-group mb-4">
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  class="form-control"
+                  name="name"
+                  id="name"
+                  required
+                />
+              </div>
 
-    <section
-      class="company-mission"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img
-              loading="lazy"
-              src="images/e-commerce2.png"
-              alt="Fluxo de implantação"
-              class="img-fluid solucao-image"
-            />
+              <div class="form-group mb-4">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+
+              <div class="form-group mb-4">
+                <input
+                  type="tel"
+                  placeholder="Telefone"
+                  class="form-control"
+                  name="tel"
+                  id="tel"
+                  required
+                />
+              </div>
+
+              <div class="form-group mb-4">
+                <input
+                  type="text"
+                  placeholder="Assunto"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  required
+                />
+              </div>
+
+              <div class="form-group mb-4">
+                <textarea
+                  rows="6"
+                  placeholder="Mensagem"
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+              <div id="cf-submit">
+                <input
+                  type="submit"
+                  id="contact-submit"
+                  class="btn btn-transparent"
+                  value="Enviar"
+                />
+              </div>
+            </form>
           </div>
+          <!-- ./End Contact Form -->
         </div>
+        <!-- end row -->
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img
-              loading="lazy"
-              src="images/e-commerce1.png"
-              alt="Fluxo de implantação"
-              class="img-fluid solucao-image"
-            />
-          </div>
-        </div>
-      </div>
+      <!-- end container -->
     </section>
+    <!-- end section -->
+
+    <!--================================
+=            Google Map            =
+=================================-->
+    <div class="map-responsive text-center">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7310.521734168819!2d-46.713763!3d-23.630827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50e507dc0001%3A0x406cb8b6817312a6!2sR.%20Verbo%20Divino%2C%202001%20-%20Ch%C3%A1cara%20Santo%20Ant%C3%B4nio%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004719-002!5e0!3m2!1spt-BR!2sbr!4v1684506138244!5m2!1spt-BR!2sbr"
+        width="100%"
+        height="500"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!--====  End of Google Map  ====-->
 
     <footer id="footer" class="bg-one">
       <div class="top-footer">
@@ -406,8 +439,6 @@ Start About Section
     <!-- end Footer Area
 ========================================== -->
 
-    <!-- end Footer Area
-========================================== -->
     <!-- 
     Essential Scripts
     =====================================-->
